@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@apollo/server": "^4.11.3",
+    "@types/axios": "^0.9.36",
     "apollo-server": "^3.13.0",
     "axios": "^1.8.1",
     "body-parser": "^1.20.3",
