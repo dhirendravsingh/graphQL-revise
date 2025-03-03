@@ -3,7 +3,7 @@ const {ApolloServer} = require("@apollo/server");
 const {expressMiddleware} = require("@apollo/server/express4");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-
+const axios = require("axios");
 
 async function startServer(){
     const app = express();
